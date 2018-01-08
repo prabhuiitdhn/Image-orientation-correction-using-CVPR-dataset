@@ -1,6 +1,6 @@
 # USAGE
-# python extract_features.py --dataset indoor_cvpr/rotated_images \
-#	--output indoor_cvpr/hdf5/orientation_features.hdf5
+# python extract_features.py --dataset dataset/rotated_images \
+#	--output dataset/hdf5/orientation_features.hdf5
 
 # import the necessary packages
 from keras.applications import VGG16
