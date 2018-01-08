@@ -1,6 +1,6 @@
 # USAGE
-# python orient_images.py --db indoor_cvpr/hdf5/orientation_features.hdf5 \
-#	--dataset indoor_cvpr/rotated_images --model models/orientation.cpickle
+# python orient_images.py --db dataset/hdf5/orientation_features.hdf5 \
+#	--dataset dataset/rotated_images --model model/orientation.cpickle
 
 # import the necessary packages
 from keras.applications import VGG16
