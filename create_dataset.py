@@ -1,6 +1,6 @@
 # USAGE
-# python create_dataset.py --dataset indoor_cvpr/images \
-#	--output indoor_cvpr/rotated_images
+# python create_dataset.py --dataset dataset/images \
+#	--output dataset/rotated_images
 
 # import the necessary packages
 from imutils import paths
