@@ -1,6 +1,6 @@
 # USAGE
-# python train_model.py --db indoor_cvpr/hdf5/orientation_features.hdf5 \
-#	--model models/orientation.cpickle 
+# python train_model.py --db dataset/hdf5/orientation_features.hdf5 \
+#	--model model/orientation.cpickle 
 
 # import the necessary packages
 from sklearn.linear_model import LogisticRegression
